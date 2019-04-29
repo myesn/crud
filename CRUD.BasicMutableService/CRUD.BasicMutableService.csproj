@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Upo.CRUD.BasicMutableService</AssemblyName>
+    <RootNamespace>Upo.CRUD.BasicMutableService</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>myesn</Authors>
+    <Description>CRUD basic mutable service definition</Description>
+    <Version>0.1.0</Version>
+    <PackageTags>Basic</PackageTags>
+    <PackageId>Upo.CRUD.BasicMutableService</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Upo.EntityFramworkCore.Extensions" Version="0.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CRUD.Abstractions\CRUD.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,1 @@
+dotnet nuget push -s http://nuget.bsyan.cn/v3/index.json -k P@ssw0rd CRUD.BasicMutableService\bin\Release\Upo.CRUD.BasicMutableService.0.1.0.nupkg

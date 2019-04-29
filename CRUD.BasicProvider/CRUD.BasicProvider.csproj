@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Upo.CRUD.BasicProvider</AssemblyName>
+    <RootNamespace>Upo.CRUD.BasicProvider</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>myesn</Authors>
+    <Company />
+    <Description>CRUD basic provider definition</Description>
+    <PackageTags>Basic</PackageTags>
+    <Version>0.1.0</Version>
+    <LangVersion>7.3</LangVersion>
+    <PackageId>Upo.CRUD.BasicProvider</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Upo.EntityFramworkCore.Extensions" Version="0.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CRUD.Abstractions\CRUD.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

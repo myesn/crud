@@ -1,0 +1,1 @@
+dotnet nuget push -s http://nuget.bsyan.cn/v3/index.json -k P@ssw0rd CRUD.Abstractions\bin\Release\Upo.CRUD.Abstractions.0.1.0.nupkg
